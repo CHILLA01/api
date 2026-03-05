@@ -1,9 +1,0 @@
-<h1>ჩვენი პროდუქტები</h1>
-<ul>
-    {% for product in products %}
-        <li>
-            <strong>{{ product.name }}</strong> - {{ product.price }} ლარი
-            (კატეგორია: {{ product.category.name }})
-        </li>
-    {% endfor %}
-</ul>
